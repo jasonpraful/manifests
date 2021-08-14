@@ -99,4 +99,4 @@ spec:
   host: ml-pipeline-visualizationserver.kubeflow.svc.cluster.local
   trafficPolicy:
     tls:
-      mode: ISTIO_MUTUAL
+      mode: DISABLE

@@ -128,7 +128,7 @@ class Controller(BaseHTTPRequestHandler):
                     "host": "ml-pipeline-visualizationserver",
                     "trafficPolicy": {
                         "tls": {
-                            "mode": "ISTIO_MUTUAL"
+                            "mode": "DISABLE"
                         }
                     }
                 }
