@@ -24,6 +24,12 @@ data:
       # FIXME: Use hashFromEnv instead
       username: user
       userID: "15841185641784"
+    - email: jason.praful@gmail.com
+      hash: $2y$12$K4.vaQpzeVIbc.mIx3.7eeI77lcFMyjLzgC7GoLg8dL2xforg2.PK
+      # https://github.com/dexidp/dex/pull/1601/commits
+      # FIXME: Use hashFromEnv instead
+      username: jasonpraful
+      userID: "15841185641785"
     staticClients:
     # https://github.com/dexidp/dex/pull/1664
     - idEnv: OIDC_CLIENT_ID

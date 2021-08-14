@@ -51,14 +51,14 @@ spec:
           requests:
             cpu: 10m
             memory: 100Mi
-  hub: docker.io/istio
+  hub: gcr.io/istio-release
   meshConfig:
     accessLogFile: /dev/stdout
     defaultConfig:
       proxyMetadata: {}
     enablePrometheusMerge: true
   profile: demo
-  tag: 1.9.6
+  tag: 1.11.0
   values:
     base:
       enableCRDTemplates: false

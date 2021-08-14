@@ -150,7 +150,7 @@ spec:
           value: sni-dnat
         - name: ISTIO_META_CLUSTER_ID
           value: Kubernetes
-        image: docker.io/istio/proxyv2:1.9.6
+        image: gcr.io/istio-release/proxyv2:1.11.0
         name: istio-proxy
         ports:
         - containerPort: 15020
